@@ -92,11 +92,16 @@ outline: none;
 background: #1b1d22;
 border-radius: 10px;
 padding: 18px;
-margin-bottom: 12px;
 border: 2px solid transparent;
 }
 
-.wallpaper:hover,
+.wallpapers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 15px;
+}
+  
+  .wallpaper:hover,
 .wallpaper:focus-within {
 border-color: #4da3ff;
 background: #24272e;
@@ -281,6 +286,8 @@ APK and APKM files for Android TV and Fire TV
 
 <h2>🌌 Video Wallpapers</h2>
 
+<div class="wallpapers">
+
 <div class="wallpaper">
 <div class="name">Balloons</div>
 <a class="download" href="https://drive.google.com/uc?export=download&id=1EIV5hKVoQpAInxUfae1uRRDzDwZGFN5M" target="_blank">DOWNLOAD</a>
@@ -329,6 +336,8 @@ APK and APKM files for Android TV and Fire TV
 <div class="wallpaper">
 <div class="name">Bluffs</div>
 <a class="download" href="https://drive.google.com/uc?export=download&id=1y9oc-j5xshvk858uQpcudfGzzT654R-b" target="_blank">DOWNLOAD</a>
+</div>
+
 </div>
 
 <div class="note">
