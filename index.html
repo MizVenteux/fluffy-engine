@@ -107,7 +107,29 @@ border-color: #4da3ff;
 background: #24272e;
 }
 
-.note {
+
+.direct-links {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+}
+
+.direct-link {
+    background: #1b1d22;
+    border-radius: 10px;
+    padding: 18px;
+    border: 2px solid transparent;
+    transition: 0.15s;
+}
+
+.direct-link:hover,
+.direct-link:focus-within {
+    border-color: #4da3ff;
+    background: #24272e;
+}
+
+  
+  .note {
 margin-top: 45px;
 padding: 18px;
 background: #181a1f;
@@ -283,8 +305,44 @@ APK and APKM files for Android TV and Fire TV
 
 </div>
 
+  
+<h2>🔗 Direct Downloads & Useful Links</h2>
 
-<h2>🌌 Video Wallpapers</h2>
+<div class="direct-links">
+
+    <div class="direct-link">
+        <div class="name">WuPlay Android TV</div>
+        <div class="type">Latest release • Direct APK download</div>
+        <a class="download"
+           href="https://github.com/wuplayapp/wuplay-releases/releases/latest/download/wuplay-androidtv.apk"
+           target="_blank"
+           rel="noopener noreferrer">DOWNLOAD LATEST APK</a>
+    </div>
+
+    <div class="direct-link">
+        <div class="name">TroyPoint Toolbox</div>
+        <div class="type">Toolbox and installation resources</div>
+        <a class="download"
+           href="https://troypoint.com/troypoint-toolbox/"
+           target="_blank"
+           rel="noopener noreferrer">OPEN WEBSITE</a>
+    </div>
+
+    <div class="direct-link">
+        <div class="name">Firestick Hacks Downloads</div>
+        <div class="type">Downloads and app resources</div>
+        <a class="download"
+           href="https://firestickhacks.com/downloads/"
+           target="_blank"
+           rel="noopener noreferrer">OPEN WEBSITE</a>
+    </div>
+
+</div>
+
+
+
+  
+  <h2>🌌 Video Wallpapers</h2>
 
 <div class="wallpapers">
 
